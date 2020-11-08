@@ -4,7 +4,7 @@ from config import Bot_token
 
 loop = asyncio.get_event_loop()
 bot = Bot(Bot_token, parse_mode='HTML')
-dp = Dispatcher(bot, loop = loop)
+dp = Dispatcher(bot, loop=loop)
 
 
 if __name__ == "__main__":
